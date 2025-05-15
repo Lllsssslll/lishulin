@@ -103,3 +103,47 @@
  * - Consistent state maintenance
  */
 **
+<黎书琳>
+# Spring Transaction Management Demo Project
+
+## Project Overview
+**Github URL**: [haffani/spring-transaction-management](https://github.com/haffani/spring-transaction-management)  
+**Tech Stack**: 
+- Spring Boot 2.x
+- Spring Data JPA
+- H2 Database / MySQL
+- Swagger API Documentation
+- Spring AOP Transaction Management
+
+## Key Features
+✅ Account Fund Transfer Implementation  
+✅ Demonstration of Declarative Transaction Management  
+✅ Complete Database Rollback Demonstration  
+✅ Integrated Swagger API Documentation  
+✅ Real-time Data Validation via H2 Console  
+✅ Exception-triggered Rollback Cases
+
+## Application Scenarios
+💰 Financial System Fund Transfers  
+📚 Educational Institution Account Management  
+🛒 E-commerce Payment Systems  
+⚙️ Any Business Scenario Requiring ACID Compliance
+
+## Project Structure (Typical)
+src/main/java/
+├── config/ # Data Source Configuration
+├── controller/ # REST API Layer
+│ └── AccountController
+├── model/ # Data Entities
+│ └── Account
+├── repository/ # Data Access Layer
+│ └── AccountRepository
+├── service/ # Business Logic Layer
+│ └── AccountService
+└── exception/ # Custom Exception Handling
+
+## Quick Start
+```bash
+git clone https://github.com/haffani/spring-transaction-management.git
+mvn spring-boot:run
+<黎书琳>
